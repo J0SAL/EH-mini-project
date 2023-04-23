@@ -47,8 +47,9 @@
                 console.log("data: ",data)
                 
                 resultElement.innerHTML = '';
+                let res = '';
                 if (data.result === 'LEGITIMATE') {
-                  resultElement.innerHTML = '<p>Content is safe</p>';
+                  res = '<p>Content is safe</p>';
                 } else {
                   res = '<div><p>Content has phishing URLs</p></div>';
                 }
