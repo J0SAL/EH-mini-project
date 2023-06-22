@@ -1,2 +1,1 @@
-# EH-mini-project
-## Topic : Phishing URLs Detection
+# Topic: URL Verification using FastAPI and Google Colab
